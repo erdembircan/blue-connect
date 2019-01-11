@@ -1,0 +1,21 @@
+{
+  "name": "blueconnect",
+  "version": "1.0.0",
+  "description": "bluetooth device connect tool for cli",
+  "main": "index.js",
+  "author": "Erdem Bircan <erdem.erdembircan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "btConnect": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier": "^1.15.3"
+  }
+}
